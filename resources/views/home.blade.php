@@ -1,0 +1,9 @@
+@extends('layout.front_app')
+@section('content')
+@include('frontend.banner')
+@include('frontend.service')
+@include('frontend.course')
+@include('frontend.project')
+@include('frontend.contact')
+@include('frontend.review')
+@endsection
